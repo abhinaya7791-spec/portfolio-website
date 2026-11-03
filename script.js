@@ -48,25 +48,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
 const projects = [
     {
         name: "E-Commerce Website",
-        description: "An online shopping website with product listings and a user-friendly interface.",
-        link: "https://github.com/abhinaya7791-spec/ecommerce-app"
+        description: "An online shopping website.",
+        link: "https://github.com/abhinaya7791-spec/ecommerce-app1"
     },
     {
         name: "MERN Blog Platform",
-        description: "A blog platform for creating and viewing blog posts.",
+        description: "A blog platform built using MERN stack.",
         link: "https://github.com/abhinaya7791-spec/mern-blog-platform"
     },
     {
         name: "Task Manager",
-        description: "A task management application to organize and manage daily tasks.",
+        description: "An application to organize and manage daily tasks.",
         link: "https://github.com/abhinaya7791-spec/task-manager"
     },
     {
-        name: "FitBuddy – Fitness Application",
-        description: "A fitness application designed to support workout and fitness activities.",
+        name: "FitBuddy",
+        description: "A fitness application designed to support fitness activities.",
         link: "https://github.com/abhinaya7791-spec/FitBuddy"
     }
 ];
