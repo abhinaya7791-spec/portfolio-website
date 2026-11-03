@@ -147,3 +147,44 @@ a {
     text-decoration: none;
 
 }
+
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 25px;
+    border-radius: 15px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #00ffff;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #00adb5;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.project-card a:hover {
+    background: #008891;
+}
